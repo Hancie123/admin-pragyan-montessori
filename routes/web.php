@@ -19,5 +19,4 @@ Route::get('/', function () {
     ');
 });
 
-
-Route::get('admin/dashboard',[DashboardController::class,'index']);
+Route::get('admin/dashboard', [DashboardController::class, 'index']);
